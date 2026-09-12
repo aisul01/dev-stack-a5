@@ -20,7 +20,7 @@ const Banner = () => {
                         compare them side by side, and put together the stack that
                         fits your next project.
                     </p>
-                     {/* Left Content End */}
+                     
 
                     {/* Buttons create start*/}
                     <div className="mt-8 flex items-center gap-3">
@@ -30,11 +30,13 @@ const Banner = () => {
                         <button className="rounded-md border border-gray-200 px-6 py-2.5 text-xs text-slate-600 hover:bg-gray-50"> Learn More </button>
 
                     </div>
+                    {/* Buttons create End*/}
 
                 </div>
+                {/* Left Content End */}
 
 
-                {/* Right Image */}
+                {/* Image section right on the right side*/}
                 <div>
                     <img src={BannerImage} alt="Development Stack"className="w-[300px]"/>
                 </div>
