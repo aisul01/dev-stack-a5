@@ -18,6 +18,8 @@ Dev stack is a simple and modern web application where developers can explore di
 3. The website works on desktop, tablet, and mobile devices.
 
 
+
+# Answer to question
 1. What is JSX, and why is it used in React?
 Ans: JSX help us write the structure of our react ui in and readable way.
 
