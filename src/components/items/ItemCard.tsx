@@ -13,7 +13,7 @@ const ItemCard = ({
 }: ItemCardProps) => {
 
     return (
-        <div className="flex min-h-[200px] flex-col rounded-xl border border-gray-100 bg-white p-3 shadow-sm">
+       <div className="flex min-h-[200px] flex-col rounded-xl border border-gray-100 bg-white p-3 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:scale-[1.02] hover:border-pink-300 hover:shadow-xl">
 
             <div className="flex items-start justify-between">
 

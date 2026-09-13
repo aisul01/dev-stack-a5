@@ -9,13 +9,12 @@ interface ItemsProps {
 
 const Items = ({ items }: ItemsProps) => {
 
-    // 1️⃣ তোমার Stack state
     const [stack, setStack] = useState<IItem[]>([]);
 
-    // 2️⃣ Toast-এর জন্য নতুন state
+    
     const [toast, setToast] = useState("");
 
-    // 3️⃣ Add button click করলে
+    // Add button click korle
     const handleAdd = (item: IItem) => {
 
         const alreadyAdded = stack.some(
@@ -37,7 +36,7 @@ const Items = ({ items }: ItemsProps) => {
         // Toast show
         setToast(`${item.name} added to your stack`);
 
-        // 2 second পরে toast disappear
+        // sec setting
         setTimeout(() => {
             setToast("");
         }, 2000);
