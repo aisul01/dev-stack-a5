@@ -3,6 +3,7 @@ import Nav from "./components/Nav";
 import Banner from "./components/Banner";
 import Items from "./components/items/Items";
 import type { IItem } from "./types/itemType";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
             ) : (
                 <Items items={items} />
             )}
+            <Footer />
 
         </>
     );
