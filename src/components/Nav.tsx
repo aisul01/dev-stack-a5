@@ -6,7 +6,7 @@ const Nav = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav >
+        <nav  className="fixed top-0 left-0 z-50 w-full border-b border-gray-100 bg-white">
 
             <div className="relative mx-auto flex h-14.5 max-w-250 items-center justify-between px-4 md:px-6">
 
@@ -41,9 +41,9 @@ const Nav = () => {
 
                 <div className="flex items-center gap-2 md:gap-4">
 
-                    <button className="text-xs text-slate-700 hover:text-pink-500"> Sign In </button>
+                    <button className="text-xs text-slate-700 hover:text-pink-500 cursor-pointer"> Sign In </button>
 
-                    <button className="rounded-full bg-pink-500 px-4 py-2 text-xs font-medium text-white hover:bg-pink-600"> Sign Up </button>
+                    <button className="rounded-full bg-pink-500 px-4 py-2 text-xs font-medium text-white hover:bg-pink-600 cursor-pointer"> Sign Up </button>
 
                 </div>
 
